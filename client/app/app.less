@@ -1,0 +1,20 @@
+@import "common/common";
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: @gray;
+}
+
+.app {
+  margin: 2em 4em auto;
+  background: @bgColor;
+  padding: 3em;
+
+  .nav-tabs > li.active > a, 
+  .nav-tabs > li.active > a:hover, 
+  .nav-tabs > li.active > a:focus {
+    background-color: @bgColor !important;
+  }
+}
+

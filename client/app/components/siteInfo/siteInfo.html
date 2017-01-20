@@ -1,0 +1,77 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <label><h5>General Info</h5></label>
+      <div class="well well-lg">
+        <div class="form-group">
+          <label for="companyName">Company Name</label>
+          <input type="text" class="form-control" id="companyName" placeholder="Company Name">
+        </div>
+        <div class="form-group">
+          <label for="siteTitle">Site Title</label>
+          <input type="text" class="form-control" id="siteTitle" placeholder="Company Name">
+        </div>
+        <div class="form-group">
+          <label for="tagline">Tagline</label>
+          <input type="text" class="form-control" id="tagline" placeholder="Tagline">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <label><h5>Social Media Accounts</h5></label>
+      <div class="well well-lg">
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="form-panel panel panel-default">
+              <div class="panel-body">
+                <label style="margin-top: 1rem;">Full Color Icons</label>
+                <div class="btn-group pull-right" role="group" aria-label="...">
+                  <button type="button" class="btn btn-default">ON</button>
+                  <button type="button" class="btn btn-primary">OF</button>
+                </div>
+              </div> 
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="form-panel panel panel-default">
+              <div class="panel-body">
+                <label style="margin-top: 1rem;"> Social Module Title</label>
+                <div class="input-group input-group-sm find-us pull-right">
+                  <input type="text" class="form-control" placeholder="Find Us">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                      <i class="fa fa-eye-slash" aria-hidden="true"></i>
+                    </button>
+                  </span>
+                </div><!-- /input-group -->
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div ng-repeat="acct in $ctrl.accounts" style="display: flex; justify-content: space-between; margin: .75em;">
+          <div><i class="fa fa-{{acct.icon}} fa-fw" style="font-size: 21px"></i> <label> {{acct.name}}<label></div>
+          <div class="form-inline">
+          <div class="input-group social-input-group">
+            <div class="input-group-addon" ng-if="acct.urlScheme === 'path'">{{acct.url}}</div>
+            <input type="text" class="form-control" id="exampleInputAmount" placeholder="Screenname">
+            <div class="input-group-addon" ng-if="acct.urlScheme === 'subdomain'">{{acct.url}}</div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="pull-right">
+        <button type="button" class="btn btn-default">Cancel</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
