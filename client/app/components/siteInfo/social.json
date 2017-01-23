@@ -3,72 +3,84 @@
     "name": "Facebook",
     "url": "facebook.com",
     "icon": "facebook-square",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "Twitter",
     "url": "twitter.com",
     "icon": "twitter-square",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "LinkedIn",
     "url": "linkedin.com/in",
     "icon": "linkedin-square",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "LinkedIn Company",
     "url": "linkedin.com/company",
     "icon": "linkedin-square",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "Google Plus",
     "url": "plus.google.com",
     "icon": "google",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "YouTube",
     "url": "youtube.com",
     "icon": "youtube-square",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "Flickr",
     "url": "flickr.com",
     "icon": "flickr",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "Vimeo",
     "url": "vimeo.com",
     "icon": "vimeo-square",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "Pinterest",
     "url": "pinterest.com",
     "icon": "pinterest-square",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "Instagram",
     "url": "instagram.com",
     "icon": "instagram",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "Foursquare",
     "url": "foursquare.com",
     "icon": "foursquare",
-    "urlScheme": "path"
+    "urlScheme": "path",
+    "username": "michaelfrohberg"
   },
   {
     "name": "Tumblr",
     "url": "tumblr.com",
     "icon": "tumblr-square",
-    "urlScheme": "subdomain"
+    "urlScheme": "subdomain",
+    "username": "michaelfrohberg"
   }
 ]

@@ -1,7 +1,7 @@
-import angular from 'angular';
-import SiteInfo from './siteInfo/siteInfo';
-import Contacts from './contacts/contacts';
-import Dashboard from './dashboard/dashboard';
+import angular from 'angular'
+import SiteInfo from './siteInfo/siteInfo'
+import Contacts from './contacts/contacts'
+import Dashboard from './dashboard/dashboard'
 
 let componentModule = angular.module('app.components', [
   SiteInfo,
@@ -9,6 +9,6 @@ let componentModule = angular.module('app.components', [
   Dashboard
 ])
 
-.name;
+.name
 
-export default componentModule;
+export default componentModule

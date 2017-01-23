@@ -1,7 +1,8 @@
 class ContactsController {
-  constructor() {
-    this.name = 'contacts';
+  constructor () {
+    this.name = 'contacts'
   }
 }
 
-export default ContactsController;
+export default ContactsController
+

@@ -1,7 +1,7 @@
 class DashboardController {
-  constructor() {
-    this.name = 'dashboard';
+  constructor () {
+    this.name = 'dashboard'
   }
 }
 
-export default DashboardController;
+export default DashboardController
