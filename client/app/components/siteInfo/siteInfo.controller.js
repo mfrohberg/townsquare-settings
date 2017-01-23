@@ -7,4 +7,6 @@ class SiteInfoController {
   }
 }
 
+console.log(accounts)
+
 export default SiteInfoController

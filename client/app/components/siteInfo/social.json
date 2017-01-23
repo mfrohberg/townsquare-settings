@@ -4,83 +4,83 @@
     "url": "facebook.com",
     "icon": "facebook-square",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "Twitter",
     "url": "twitter.com",
     "icon": "twitter-square",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "LinkedIn",
     "url": "linkedin.com/in",
     "icon": "linkedin-square",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "LinkedIn Company",
     "url": "linkedin.com/company",
     "icon": "linkedin-square",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "Google Plus",
     "url": "plus.google.com",
     "icon": "google",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "YouTube",
     "url": "youtube.com",
     "icon": "youtube-square",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "Flickr",
     "url": "flickr.com",
     "icon": "flickr",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "Vimeo",
     "url": "vimeo.com",
     "icon": "vimeo-square",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "Pinterest",
     "url": "pinterest.com",
     "icon": "pinterest-square",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "Instagram",
     "url": "instagram.com",
     "icon": "instagram",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "Foursquare",
     "url": "foursquare.com",
     "icon": "foursquare",
     "urlScheme": "path",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   },
   {
     "name": "Tumblr",
     "url": "tumblr.com",
     "icon": "tumblr-square",
     "urlScheme": "subdomain",
-    "username": "michaelfrohberg"
+    "username": "mixedmedia"
   }
 ]

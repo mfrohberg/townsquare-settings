@@ -1,6 +1,6 @@
-<div class="container-fluid">
+<!--<div class="container">-->
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-sm-12">
       <label><h5>General Info</h5></label>
       <div class="well well-lg">
         <div class="form-group">
@@ -18,25 +18,25 @@
       </div>
     </div>
   </div>
-</div>
-<div class="container-fluid">
+<!--</div>-->
+<!--<div class="container">-->
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-sm-12">
       <label><h5>Social Media Accounts</h5></label>
       <div class="well well-lg">
         <div class="row">
-          <div class="col-xs-6">
+          <div class="col-sm-6">
             <div class="form-panel panel panel-default">
               <div class="panel-body">
                 <label style="margin-top: 1rem;">Full Color Icons</label>
                 <div class="btn-group pull-right" role="group" aria-label="...">
                   <button type="button" class="btn btn-default">ON</button>
-                  <button type="button" class="btn btn-primary">OF</button>
+                  <button type="button" class="btn btn-primary">OFF</button>
                 </div>
               </div> 
             </div>
           </div>
-          <div class="col-xs-6">
+          <div class="col-sm-6">
             <div class="form-panel panel panel-default">
               <div class="panel-body">
                 <label style="margin-top: 1rem;"> Social Module Title</label>
@@ -53,15 +53,18 @@
           </div>
         </div>
         <div class="clearfix"></div>
-        <div ng-repeat="acct in $ctrl.accounts" style="display: flex; justify-content: space-between; margin: .75em;">
-          <div><i class="fa fa-{{acct.icon}} fa-fw" style="font-size: 21px"></i> <label> {{acct.name}}<label></div>
-          <div class="form-inline">
-          <div class="input-group social-input-group">
-            <div class="input-group-addon" ng-if="acct.urlScheme === 'path'">{{acct.url}}</div>
-            <input type="text" class="form-control" id="exampleInputAmount" placeholder="Screenname">
-            <div class="input-group-addon" ng-if="acct.urlScheme === 'subdomain'">{{acct.url}}</div>
+        <div class="row" ng-repeat="acct in $ctrl.accounts">
+          <div class="col-sm-6" style="margin-bottom: 1em;">
+            <i class="fa fa-{{acct.icon}} fa-fw" style="font-size: 21px"></i> 
+            <label style="margin: .5em;"> {{acct.name}}<label>
           </div>
-        </div>
+          <div class="col-sm-6" style="margin-bottom: 1em;">
+            <div class="input-group">
+              <div class="input-group-addon" ng-if="acct.urlScheme === 'path'">{{acct.url}}</div>
+              <input type="text" class="form-control" id="exampleInputAmount" placeholder="{{acct.username}}">
+              <div class="input-group-addon" ng-if="acct.urlScheme === 'subdomain'">{{acct.url}}</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -74,4 +77,4 @@
       </div>
     </div>
   </div>
-</div>
+<!--</div>-->
