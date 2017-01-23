@@ -30,8 +30,20 @@
               <div class="panel-body">
                 <label style="margin-top: 1rem;">Full Color Icons</label>
                 <div class="btn-group pull-right" role="group" aria-label="...">
-                  <button type="button" class="btn btn-default">ON</button>
-                  <button type="button" class="btn btn-primary">OFF</button>
+                  <button 
+                    ng-click="$ctrl.setIconsActive()" 
+                    type="button" 
+                    class="btn" 
+                    ng-class="$ctrl.iconsActive ? 'btn-primary': 'btn-default'">
+                    ON
+                  </button>
+                  <button 
+                    ng-click="$ctrl.setIconsInactive()" 
+                    type="button" 
+                    class="btn" 
+                    ng-class="$ctrl.iconsActive ? 'btn-default': 'btn-primary'">
+                    OFF
+                  </button>
                 </div>
               </div> 
             </div>
@@ -55,7 +67,7 @@
         <div class="clearfix"></div>
         <div class="row" ng-repeat="acct in $ctrl.accounts">
           <div class="col-sm-6" style="margin-bottom: 1em;">
-            <i class="fa fa-{{acct.icon}} fa-fw" style="font-size: 21px"></i> 
+            <i class="fa fa-{{acct.icon}} fa-fw" style="font-size: 21px" ng-class="$ctrl.iconsActive ? 'icon-active' : ''"></i> 
             <label style="margin: .5em;"> {{acct.name}}<label>
           </div>
           <div class="col-sm-6" style="margin-bottom: 1em;">
